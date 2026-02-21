@@ -1,5 +1,9 @@
 # NCAA D1 Men's Basketball Team Name Normalizer
 
+[![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)](https://www.python.org/downloads/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
 A production-ready Python package that normalizes NCAA Division I Men's Basketball team names to ESPN's canonical format. Solves the problem of inconsistent team naming across different data sources (sportsbooks, scrapers, APIs).
 
 > **⚠️ Python Version Requirement**: This package requires **Python 3.11 or 3.12**. Python 3.14 is not yet supported due to a dependency issue with `sportsdataverse`.
@@ -39,8 +43,8 @@ pip install ncaa_d1_team_normalizer
 For development:
 
 ```bash
-git clone https://github.com/yourusername/ncaa_d1_team_normalizer.git
-cd ncaa_d1_team_normalizer
+git clone https://github.com/dburge86/ncaa-basketball-team-normalizer.git
+cd ncaa-basketball-team-normalizer
 
 # Create venv with Python 3.11 or 3.12
 python3.11 -m venv venv
@@ -347,8 +351,8 @@ MIT License - see LICENSE file for details.
 
 ## Support
 
-- **Issues**: https://github.com/yourusername/ncaa_d1_team_normalizer/issues
-- **Documentation**: https://github.com/yourusername/ncaa_d1_team_normalizer
+- **Issues**: https://github.com/dburge86/ncaa-basketball-team-normalizer/issues
+- **Documentation**: https://github.com/dburge86/ncaa-basketball-team-normalizer
 
 ## Changelog
 

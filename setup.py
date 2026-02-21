@@ -11,12 +11,12 @@ with open("requirements.txt", "r", encoding="utf-8") as fh:
 setup(
     name="ncaa_d1_team_normalizer",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="dburge86",
+    author_email="dburge86@users.noreply.github.com",
     description="Normalize NCAA D1 Men's Basketball team names to ESPN canonical format",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/yourusername/ncaa_d1_team_normalizer",
+    url="https://github.com/dburge86/ncaa-basketball-team-normalizer",
     packages=find_packages(exclude=["tests", "tests.*"]),
     classifiers=[
         "Development Status :: 3 - Alpha",
@@ -43,7 +43,7 @@ setup(
     },
     keywords="ncaa basketball sports data normalization espn",
     project_urls={
-        "Bug Reports": "https://github.com/yourusername/ncaa_d1_team_normalizer/issues",
-        "Source": "https://github.com/yourusername/ncaa_d1_team_normalizer",
+        "Bug Reports": "https://github.com/dburge86/ncaa-basketball-team-normalizer/issues",
+        "Source": "https://github.com/dburge86/ncaa-basketball-team-normalizer",
     },
 )
